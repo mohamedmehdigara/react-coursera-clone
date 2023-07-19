@@ -90,6 +90,77 @@ body {
   font-size: 14px;
 }
 
+.main {
+  padding: 20px;
+}
+
+.earn-degree {
+  margin-bottom: 40px;
+}
+
+.earn-degree h2,
+.popular-certificates h2,
+.recently-viewed h2,
+.coursera-plus h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.degree-card,
+.certificate-card,
+.viewed-card,
+.coursera-plus-course {
+  background-color: #ffffff;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.degree-card h3,
+.certificate-card h3,
+.viewed-card h3,
+.coursera-plus-course h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.degree-card p,
+.certificate-card p,
+.viewed-card p,
+.coursera-plus-course p {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 15px;
+}
+
+.degree-card button {
+  padding: 10px 20px;
+  background-color: #2a73cc;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popular-certificates .certificate-card,
+.recently-viewed .viewed-card,
+.coursera-plus .coursera-plus-course {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popular-certificates .certificate-card h3,
+.recently-viewed .viewed-card h3,
+.coursera-plus .coursera-plus-course h3 {
+  text-align: center;
+}
+
+.coursera-plus-course p:last-child {
+  margin-bottom: 0;
+}
+
 .footer {
   background-color: #f2f2f2;
   color: #333;
