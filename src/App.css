@@ -224,3 +224,83 @@ body {
   font-size: 12px;
   color: #666;
 }
+/* App.css */
+/* Add other styles */
+
+/* App.css */
+/* Add other styles */
+
+.for-businesses-page {
+  padding: 50px;
+}
+
+.for-businesses-page h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.for-businesses-page p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.for-businesses-page p:hover {
+  color: #2a73cc;
+  cursor: pointer;
+}
+
+.for-businesses-page .benefits,
+.for-businesses-page .impact,
+.for-businesses-page .strengthen-skills,
+.for-businesses-page .world-class-content,
+.for-businesses-page .academies,
+.for-businesses-page .show-roi,
+.for-businesses-page .retain-talent {
+  margin-bottom: 30px;
+}
+
+.for-businesses-page .benefits h3,
+.for-businesses-page .impact h3,
+.for-businesses-page .strengthen-skills h3,
+.for-businesses-page .world-class-content h3,
+.for-businesses-page .academies h3,
+.for-businesses-page .show-roi h3,
+.for-businesses-page .retain-talent h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.for-businesses-page .benefits ul,
+.for-businesses-page .strengthen-skills ul,
+.for-businesses-page .world-class-content ul,
+.for-businesses-page .show-roi ul {
+  list-style: disc;
+  margin-left: 30px;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.for-businesses-page .benefits p,
+.for-businesses-page .strengthen-skills p,
+.for-businesses-page .world-class-content p,
+.for-businesses-page .academies p,
+.for-businesses-page .show-roi p,
+.for-businesses-page .retain-talent p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.for-businesses-page .benefits p:last-child,
+.for-businesses-page .impact p:last-child,
+.for-businesses-page .strengthen-skills p:last-child,
+.for-businesses-page .world-class-content p:last-child,
+.for-businesses-page .academies p:last-child,
+.for-businesses-page .show-roi p:last-child,
+.for-businesses-page .retain-talent p:last-child {
+  margin-bottom: 0;
+}
