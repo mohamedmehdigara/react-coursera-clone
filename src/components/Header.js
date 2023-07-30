@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+  const [showExploreDropdown, setShowExploreDropdown] = useState(false);
+  const [showUserMenu, setShowUserMenu] = useState(false);
+
+  const toggleExploreDropdown = () => {
+    setShowExploreDropdown((prev) => !prev);
+  };
+
+  const toggleUserMenu = () => {
+    setShowUserMenu((prev) => !prev);
+  };
+
   return (
     <header>
       <div className="container">
@@ -19,8 +30,14 @@ const Header = () => {
           </div>
         </div>
         <div className="header-right">
-          <button className="explore-button">Explore</button>
-          <div className="dropdown-content">
+          <button
+            className="explore-button"
+            onMouseEnter={toggleExploreDropdown}
+            onMouseLeave={toggleExploreDropdown}
+          >
+            Explore
+          </button>
+          <div className={`dropdown-content ${showExploreDropdown ? 'show' : ''}`}>
             <div className="goals-submenu">
               <p>Goals</p>
               <ul>
@@ -47,8 +64,10 @@ const Header = () => {
               </ul>
             </div>
           </div>
-          <span className="username">Mohamed Mehdi Gara</span>
-          <div className="user-menu">
+          <span className="username" onMouseEnter={toggleUserMenu} onMouseLeave={toggleUserMenu}>
+            Mohamed Mehdi Gara
+          </span>
+          <div className={`user-menu ${showUserMenu ? 'show' : ''}`}>
             <a href="#">Welcome back!</a>
             <a href="#">Tell us about yourself</a>
             <a href="#">I am currently an MBA graduate</a>
