@@ -4,11 +4,6 @@ const ForBusinesses = () => {
   return (
     <div className="for-businesses-page">
       <h2>Coursera for Business</h2>
-      <p>Why Coursera</p>
-      <p>Solutions</p>
-      <p>Resources</p>
-      <p>For Teams</p>
-      <p>Compare Plans</p>
 
       <div className="benefits">
         <h3>Make talent your competitive advantage</h3>
@@ -55,14 +50,6 @@ const ForBusinesses = () => {
         {/* Add university logos here */}
         <p>Search our catalog of world-class content</p>
         <p>e.g. Data Science</p>
-      </div>
-
-      <div className="academies">
-        <h3>ACADEMIES</h3>
-        <p>Leverage job-aligned curations</p>
-        <p>Offer your employees curated skill paths that progress through beginner, intermediate, and advanced levels.</p>
-        <p>Browse Coursera Academies</p>
-        {/* Add more content for Academies section */}
       </div>
 
       <div className="show-roi">

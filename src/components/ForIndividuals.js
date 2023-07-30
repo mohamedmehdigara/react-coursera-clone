@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Main = () => {
+const ForIndividuals = () => {
   return (
     <main className="main">
       <section className="earn-degree">
@@ -47,4 +47,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default ForIndividuals;
