@@ -25,7 +25,7 @@ const Header = () => {
             <Link to="/for-individuals">For Individuals</Link>
             <Link to="/for-businesses">For Businesses</Link>
             <a href="#">For Universities</a>
-            <a href="#">For Governments</a>
+            <Link to="/for-governments">For Governments</Link>
             <a href="#">Skip to Main Content</a>
           </div>
         </div>

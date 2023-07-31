@@ -322,3 +322,89 @@ main {
 .for-businesses-page .retain-talent p:last-child {
   margin-bottom: 0;
 }
+
+/* App.css */
+.forgovernment-container {
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.forgovernment-container h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.forgovernment-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.forgovernment-container h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.forgovernment-container p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.statistics {
+  display: flex;
+  margin-top: 20px;
+}
+
+.statistics div {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.statistics span {
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.train-citizens,
+.train-employees {
+  margin-bottom: 30px;
+}
+
+.get-in-touch {
+  margin-top: 40px;
+}
+
+.form-group {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.form-group select {
+  max-width: 200px;
+}
+
+.form-group textarea {
+  flex: 2;
+  resize: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #2a73cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Other styles */
