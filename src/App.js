@@ -7,6 +7,7 @@ import ForBusinesses from './components/ForBusinesses';
 import ForGovernments from './components/ForGovernments';
 
 import "./App.css";
+import ForUniversities from './components/ForUniversities';
 
 const App = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
           <Route path="/for-businesses" exact element={<ForBusinesses/>} />
           <Route path="/for-individuals" exact element={<ForIndividuals/>} />
           <Route path="/for-governments" exact element={<ForGovernments/>} />
+          <Route path="/for-universities" exact element={<ForUniversities/>} />
+
 
 
           {/* Add more routes for other pages */}

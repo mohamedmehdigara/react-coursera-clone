@@ -408,3 +408,52 @@ button {
 }
 
 /* Other styles */
+/* App.css */
+.foruniversities-container {
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.foruniversities-container h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.foruniversities-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.foruniversities-container h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.foruniversities-container p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.statistics {
+  display: flex;
+  margin-top: 20px;
+}
+
+.statistics div {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.statistics span {
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.join-universities p {
+  margin-bottom: 10px;
+}
+
+/* Other styles */
