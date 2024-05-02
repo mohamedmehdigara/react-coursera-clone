@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Header from './components/Header/Header';
 import ForIndividuals from './components/ForIndividuals/ForIndividuals';
@@ -12,6 +12,7 @@ import Tabs from './components/Tabs/Tabs';
 import DropdownMenu from './components/DropdownMenu/DropdownMenu';
 import Carousel from './components/Carousel/Carousel';
 import Accordion from './components/Accordion/Accordion';
+import Pagination from './components/Pagination/Pagination';
 
 import "./App.css";
 
@@ -27,6 +28,12 @@ const App = () => {
     { id: 3, content: <img src="image3.jpg" alt="Image 3" /> },
     // Add more items as needed
   ];
+
+  const [currentPage, setCurrentPage] = useState(1);
+  const totalPages = 10; // Assuming you have a total of 10 pages
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  };
 
   return (
     <Router>
@@ -72,6 +79,8 @@ const App = () => {
 
           {/* Add more routes for other pages */}
         </Routes>
+        <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
+
         <Footer />
       </div>
     </Router>
