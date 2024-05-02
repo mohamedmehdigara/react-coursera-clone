@@ -1,0 +1,48 @@
+/* Header.css */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .header-left img {
+    height: 30px;
+  }
+  
+  .header-links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .username {
+    cursor: pointer;
+  }
+  
+  .user-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .user-menu.show {
+    display: block;
+  }
+  
+  .user-menu a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 8px 0;
+  }
+  
+  .user-menu a:hover {
+    background-color: #f0f0f0;
+  }
+  

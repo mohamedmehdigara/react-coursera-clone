@@ -1,0 +1,42 @@
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-footer .author {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  .card-footer .read-more {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .card-footer .read-more:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
