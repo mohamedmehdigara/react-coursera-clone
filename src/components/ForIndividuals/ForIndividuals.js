@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import "./ForIndividuals.css";
 
 
 const ForIndividuals = () => {

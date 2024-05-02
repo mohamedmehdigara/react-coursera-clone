@@ -11,6 +11,7 @@ import Modal from './components/Modal/Modal';
 import Tabs from './components/Tabs/Tabs';
 import DropdownMenu from './components/DropdownMenu/DropdownMenu';
 import Carousel from './components/Carousel/Carousel';
+import Accordion from './components/Accordion/Accordion';
 
 import "./App.css";
 
@@ -31,6 +32,10 @@ const App = () => {
     <Router>
       <div className="app">
         <Header />
+
+        <Accordion title="Section 1" content={<p>This is the content for section 1</p>} />
+        <Accordion title="Section 2" content={<p>This is the content for section 2</p>} />
+
 
          {/* Render CoursePreview component */}
       <CoursePreview

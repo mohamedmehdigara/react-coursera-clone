@@ -1,4 +1,5 @@
 import React from 'react';
+import "./ForUniversities.css";
 
 const ForUniversities = () => {
   return (
