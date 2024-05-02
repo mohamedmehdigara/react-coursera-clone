@@ -1,4 +1,5 @@
 import React from 'react';
+import "./ForBusinesses.css";
 
 const ForBusinesses = () => {
   return (
