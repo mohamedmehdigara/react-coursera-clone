@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import "./ForIndividuals.css";
+import Navbar from '../Navbar/Navbar';
 
 
 const ForIndividuals = () => {
@@ -29,6 +30,8 @@ const ForIndividuals = () => {
               <p>Goals</p>
               <ul>
                 <li>Take a free course</li>
+                <Navbar /> {/* Render the Navbar component */}
+
                 <li>Earn a Degree</li>
                 <li>Earn a Certificate</li>
                 <li>Find your new career</li>

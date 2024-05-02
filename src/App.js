@@ -11,8 +11,8 @@ import Modal from './components/Modal/Modal';
 import Tabs from './components/Tabs/Tabs';
 import DropdownMenu from './components/DropdownMenu/DropdownMenu';
 import Carousel from './components/Carousel/Carousel';
-import Accordion from './components/Accordion/Accordion';
 import Pagination from './components/Pagination/Pagination';
+import Navbar from './components/Navbar/Navbar';
 
 import "./App.css";
 
@@ -39,10 +39,24 @@ const App = () => {
     <Router>
       <div className="app">
         <Header />
+       
+        <Navbar/>
 
-        <Accordion title="Section 1" content={<p>This is the content for section 1</p>} />
-        <Accordion title="Section 2" content={<p>This is the content for section 2</p>} />
+       
+        
+        <Routes>
+          
+          <Route path="/for-businesses" exact element={<ForBusinesses/>} />
+          <Route path="/for-individuals" exact element={<ForIndividuals/>} />
+          <Route path="/for-governments" exact element={<ForGovernments/>} />
+          <Route path="/for-universities" exact element={<ForUniversities/>} />
 
+
+
+          {/* Add more routes for other pages */}
+        </Routes>
+        <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
+       
 
          {/* Render CoursePreview component */}
       <CoursePreview
@@ -66,20 +80,6 @@ const App = () => {
       {/* Render Tabs component */}
       <Tabs tabs={tabs} />
       <Carousel items={items} />
-
-        
-        <Routes>
-          
-          <Route path="/for-businesses" exact element={<ForBusinesses/>} />
-          <Route path="/for-individuals" exact element={<ForIndividuals/>} />
-          <Route path="/for-governments" exact element={<ForGovernments/>} />
-          <Route path="/for-universities" exact element={<ForUniversities/>} />
-
-
-
-          {/* Add more routes for other pages */}
-        </Routes>
-        <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
 
         <Footer />
       </div>
