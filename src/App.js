@@ -14,6 +14,8 @@ import Carousel from './components/Carousel/Carousel';
 import Pagination from './components/Pagination/Pagination';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
+import Courses from './components/Courses/Courses';
+import Degrees from './components/Degrees/Degrees';
 
 import "./App.css";
 
@@ -52,6 +54,10 @@ const App = () => {
           <Route path="/for-governments" exact element={<ForGovernments/>} />
           <Route path="/for-universities" exact element={<ForUniversities/>} />
           <Route path="/Home" exact element={<Home/>} />
+          <Route path="/Courses" exact element={<Courses/>} />
+          <Route path="/Degrees" exact element={<Degrees/>} />
+
+
 
 
 

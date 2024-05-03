@@ -1,0 +1,22 @@
+/* Degrees.css */
+
+.degrees-container {
+    padding: 20px;
+  }
+  
+  .degree-card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .degree-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .degree-card p {
+    color: #555;
+  }
+  
