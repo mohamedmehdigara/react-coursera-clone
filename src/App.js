@@ -13,6 +13,7 @@ import DropdownMenu from './components/DropdownMenu/DropdownMenu';
 import Carousel from './components/Carousel/Carousel';
 import Pagination from './components/Pagination/Pagination';
 import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
 
 import "./App.css";
 
@@ -50,12 +51,12 @@ const App = () => {
           <Route path="/for-individuals" exact element={<ForIndividuals/>} />
           <Route path="/for-governments" exact element={<ForGovernments/>} />
           <Route path="/for-universities" exact element={<ForUniversities/>} />
+          <Route path="/Home" exact element={<Home/>} />
 
 
 
           {/* Add more routes for other pages */}
         </Routes>
-        <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
        
 
          {/* Render CoursePreview component */}
@@ -80,6 +81,7 @@ const App = () => {
       {/* Render Tabs component */}
       <Tabs tabs={tabs} />
       <Carousel items={items} />
+      <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
 
         <Footer />
       </div>
