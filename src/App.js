@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
 import Header from './components/Header/Header';
 import ForIndividuals from './components/ForIndividuals/ForIndividuals';
 import Footer from './components/Footer/Footer';
@@ -16,6 +16,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import Courses from './components/Courses/Courses';
 import Degrees from './components/Degrees/Degrees';
+import ForEntreprise from './components/ForEntreprise/ForEntreprise';
 
 import "./App.css";
 
@@ -56,6 +57,7 @@ const App = () => {
           <Route path="/Home" exact element={<Home/>} />
           <Route path="/Courses" exact element={<Courses/>} />
           <Route path="/Degrees" exact element={<Degrees/>} />
+         
 
 
 
@@ -63,7 +65,7 @@ const App = () => {
 
           {/* Add more routes for other pages */}
         </Routes>
-       
+       <ForEntreprise/>
 
          {/* Render CoursePreview component */}
       <CoursePreview
