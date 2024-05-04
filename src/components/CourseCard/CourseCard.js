@@ -1,5 +1,6 @@
 import React from 'react';
 import "./CourseCard.css";
+import {Link} from "react-router-dom";
 
 const CourseCard = ({ course }) => {
   const { title, instructor, price } = course;
@@ -9,7 +10,7 @@ const CourseCard = ({ course }) => {
       <h2 className="course-title">{title}</h2>
       <p className="instructor">Instructor: {instructor}</p>
       <p className="price">Price: {price}</p>
-      <button className="enroll-button">Enroll Now</button>
+      <Link to="/enroll"><button className="enroll-button">Enroll Now</button></Link>
     </div>
   );
 }
