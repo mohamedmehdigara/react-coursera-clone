@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import "./Home.css";
 
 const Home = () => {
@@ -8,7 +10,9 @@ const Home = () => {
         <div className="hero-content">
           <h1>Welcome to Coursera</h1>
           <p>Learn new skills, pursue your interests, advance your career.</p>
-          <button>Get Started</button>
+          <Link to="/example">
+        <button>Get Started</button>
+      </Link>
         </div>
       </section>
 

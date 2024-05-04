@@ -1,0 +1,20 @@
+/* ExamplePage.css */
+
+.example-page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .example-page-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .example-page-content {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666;
+  }
+  
