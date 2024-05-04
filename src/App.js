@@ -17,6 +17,7 @@ import Home from './components/Home/Home';
 import Courses from './components/Courses/Courses';
 import Degrees from './components/Degrees/Degrees';
 import ForEntreprise from './components/ForEntreprise/ForEntreprise';
+import ExamplePage from './components/ExamplePage/ExamplePage';
 
 import "./App.css";
 
@@ -57,6 +58,8 @@ const App = () => {
           <Route path="/Home" exact element={<Home/>} />
           <Route path="/Courses" exact element={<Courses/>} />
           <Route path="/Degrees" exact element={<Degrees/>} />
+          <Route path="/example-page" element={<ExamplePage />} />
+
          
 
 

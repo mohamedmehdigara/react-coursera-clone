@@ -10,7 +10,7 @@ const Home = () => {
         <div className="hero-content">
           <h1>Welcome to Coursera</h1>
           <p>Learn new skills, pursue your interests, advance your career.</p>
-          <Link to="/example">
+          <Link to="/example-page">
         <button>Get Started</button>
       </Link>
         </div>
