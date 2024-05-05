@@ -10,7 +10,7 @@ const CourseCard = ({ course, enrollmentPageUrl }) => {
       <h2 className="course-title">{title}</h2>
       <p className="instructor">Instructor: {instructor}</p>
       {price && <p className="price">Price: {price}</p>}
-      <Link to={enrollmentPageUrl}><button className="enroll-button">Enroll Now</button></Link>
+      <Link to="/enroll"><button className="enroll-button">Enroll Now</button></Link>
     </div>
   );
 }

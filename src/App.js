@@ -60,7 +60,7 @@ const App = () => {
           <Route path="/Courses" exact element={<Courses/>} />
           <Route path="/Degrees" exact element={<Degrees/>} />
           <Route path="/example-page" element={<ExamplePage />} />
-          <Route path="/enrollment-page" element={<EnrollmentPage />} /> {/* Define the route for the enrollment page */}
+          <Route path="/enroll" element={<EnrollmentPage />} /> {/* Define the route for the enrollment page */}
 
 
          
